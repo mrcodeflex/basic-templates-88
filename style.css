@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*========
+
+common css 
+
+========*/
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*==========
+header section css
+==========*/
+
+header {
+    background-color: #333333;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.logo h2 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.logo p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.menu nav ul {
+    background-color: #232323;
+
+}
+
+.menu nav ul li {
+    display: inline-block;
+}
+
+.menu nav ul li a {
+    color: #fff;
+    font-size: 25px;
+    padding: 15px 25px;
+}
+
+/*==========
+hero/banner section css
+==========*/
+.hero {
+    margin: 40px 0;
+    display: block;
+    width: 100%;
+}
+
+/*==========
+post section css
+==========*/
+.post-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.col-md-4 {
+    padding: 0 30px;
+}
+
+.card-img {
+    border: 10px double #D6D6D6;
+    display: inline-block
+}
+
+.post-title {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #979797
+}
+
+.post-description {
+    color: #979797;
+    font-size: 18px
+}
+
+.read-more a {
+    color: #ff9900;
+    float: right;
+    padding: 15px 0;
+    font-size: 20px
+}
+
+/*==========
+post-2  css
+==========*/
+.post-2-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0
+}
+
+.col-md-6 {
+    padding: 0 70px;
+
+}
+
+.post-2-title {
+    font-size: 35 px;
+    color: #979797;
+    padding: 20px 0
+}
+
+.post-2-description {
+    color: #979797;
+    font-size: 18px
+}
+
+.post-2-description a {
+    color: #ff9900
+}
+
+.post-2-img {
+
+    border: 10px double #D6D6D6;
+}
+
+/*==========
+footer  css
+==========*/
+.footer-top {
+    background-color: #333333;
+    padding: 20px 0
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between
+    
+}
+
+.col-md-3 {
+    padding: 0 20px;
+    width: 100%
+}
+
+h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    color: #fff
+}
+
+.col-md-3 ul li {
+    list-style: none;
+}
+
+.col-md-3 ul li a {
+    color: #ff9900;
+    font-size: 15px;
+    border-bottom: solid 2px #555;
+    display: block;
+    padding: 8px;
+    text-transform: capitalize
+}
+.footer-bottom{
+    background: #000;
+    padding: 20px 0;
+    color: #fff
+}
